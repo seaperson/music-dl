@@ -22,7 +22,7 @@ gettext.install("music-dl", "locale")
 def menu(songs_list):
     # 创建table
     tb = pt.PrettyTable()
-    tb.field_names = ["序号", "歌名", "歌手", "大小", "时长", "专辑", "来源"]
+    tb.field_names = ["序号", "歌名", "歌手", "大小","格式", "时长", "专辑", "来源"]
     # 遍历输出搜索列表
     for index, song in enumerate(songs_list):
         song.idx = index

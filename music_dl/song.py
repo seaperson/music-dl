@@ -161,6 +161,7 @@ class BasicSong:
             ht_title,
             ht_singer,
             ht_size,
+            self.ext,
             self.duration,
             ht_album,
             self.source.upper(),
